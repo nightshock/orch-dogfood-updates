@@ -6,14 +6,14 @@
     <description>Dogfood updates for Orch native macOS app.</description>
     <language>en</language>
     <item>
-      <title>Orch 0.1.0 (202605191946) dogfood</title>
-      <pubDate>Tue, 19 May 2026 19:56:50 +0000</pubDate>
-      <sparkle:version>202605191946</sparkle:version>
+      <title>Orch 0.1.0 (202605191958) dogfood</title>
+      <pubDate>Tue, 19 May 2026 20:00:52 +0000</pubDate>
+      <sparkle:version>202605191958</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/nightshock/orch-dogfood-updates/releases/download/dogfood-202605191946/Orch-0.1.0-202605191946-dogfood.dmg" length="90935347" type="application/octet-stream" sparkle:edSignature="CXPgDM6c4WQApXLo6Tam9aC60B34NbGTECBZkZdA69Yei1e2gI1OSGTVR4VYBGeU72wymdZ7P0XXEJkKdouCBQ==" sparkle:installerArguments="--channel=dogfood" />
-      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/nightshock/orch-dogfood-updates/main/release-notes-202605191946.html</sparkle:releaseNotesLink>
-      <dc:identifier>65da3a1ce1cf98ff3e5061cb8f1968efdcff9951117b98f270ce7869836dc66b</dc:identifier>
+      <enclosure url="https://github.com/nightshock/orch-dogfood-updates/releases/download/dogfood-202605191958/Orch-0.1.0-202605191958-dogfood.dmg" length="90935390" type="application/octet-stream" sparkle:edSignature="zaE+hPE9q8OcqW8MdP/ICuYdPxIIW5nkEdAOpyQ3HWDVKcLhtNk09bMb20hCz6jclAXRofgKy/9hu3b8P5OrAw==" sparkle:installerArguments="--channel=dogfood" />
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/nightshock/orch-dogfood-updates/main/release-notes-202605191958.html</sparkle:releaseNotesLink>
+      <dc:identifier>35f16050d0fc4da35b7e2b96c716f2d2c39136fe421cdb7f4e9666c75a3543ba</dc:identifier>
     </item>
   </channel>
 </rss>
