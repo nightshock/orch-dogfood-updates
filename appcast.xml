@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Orch dogfood Updates</title>
+    <link>https://nightshock.github.io/orch-dogfood-updates/</link>
+    <description>Dogfood updates for Orch native macOS app.</description>
+    <language>en</language>
+    <item>
+      <title>Orch 0.1.0 (202605190801) dogfood</title>
+      <pubDate>Tue, 19 May 2026 09:30:58 +0000</pubDate>
+      <sparkle:version>202605190801</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/nightshock/orch-dogfood-updates/releases/download/dogfood-202605190801/Orch-0.1.0-202605190801-dogfood.dmg" length="90724891" type="application/octet-stream" sparkle:edSignature="Kx02NU/mJkeFUgpzeuXQpWs4mvlfai7qvHAEtWJ8hT6r72oVWGZMuZt78zTxJcPfX0ZuCY+FSVZKXkgFNPOIDA==" sparkle:installerArguments="--channel=dogfood" />
+      <sparkle:releaseNotesLink>https://nightshock.github.io/orch-dogfood-updates/release-notes-202605190801.html</sparkle:releaseNotesLink>
+      <dc:identifier>7f52ef1a78e79613135664ace9b8efff73680229f561c5a0ca646fa6f7de0be7</dc:identifier>
+    </item>
+  </channel>
+</rss>
