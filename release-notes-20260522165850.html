@@ -1,10 +1,14 @@
 Orch 0.1.0 dogfood (20260522165850)
 
 What changed:
-• GigaAM CoreML voice runtime stays bundled and local-first.
-• Voice tone context is available as a transient prompt signal when confidence is high.
-• Release diagnostics now report bundle size, timings, and the largest packaged files.
+• Added “Работа” as the task home: tasks open in a dedicated full-page task screen with back navigation.
+• Cleaned “Сегодня”: removed task-attention noise from the temporal day/week surface.
+• Reframed attention state: waiting/blocked work belongs in “Внимание”, not fake approvals.
+• Fixed task overview chat contract: task status questions now go through the LLM with structured task context; no local synthetic assistant answers.
+• Explicit LLM/runtime failures now render as safe assistant errors instead of disappearing silently.
+• Fixed debug/runtime ownership: debug builds no longer kill a valid installed runtime when their local Runtime bundle is missing.
+• Runtime diagnostics copying now reliably puts the report on the clipboard.
 
 Notes:
-• Voice tone labels are not shown to users and are not stored as memory.
-• Sparkle uses small delta updates when available, with the full signed DMG as fallback.
+• Normal assistant chat may contain only an LLM answer, an explicit safe error, or a direct save/remember confirmation.
+• Sparkle uses a delta update from build 20260522134908 when available, with the full signed DMG as fallback.
