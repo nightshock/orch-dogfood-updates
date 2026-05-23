@@ -1,0 +1,11 @@
+Orch 0.1.0 dogfood runtime recovery update
+
+What changed:
+• Fixed stale runtime replacement after moving or reinstalling Orch.app between DMG/Desktop and /Applications.
+• Runtime supervisor now detects a foreign runtime from /doctorz executor evidence even when /readyz is HTTP 200 and /doctorz is HTTP 503.
+• Recovery avoids killing the freshly launched managed runtime while replacing a stale port owner.
+• Runtime diagnostics now keep log tails compact instead of producing huge multi-page reports.
+
+Notes:
+• This update targets the 127.0.0.1:42101 ownership mismatch where an old bundle kept serving runtime requests.
+• Expected fixed state: /readyz = 200, /doctorz = 200, and doctorz.executor.executable points to /Applications/Orch.app/Contents/Resources/Runtime/codex.
