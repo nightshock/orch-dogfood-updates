@@ -1,10 +1,15 @@
 Orch 0.1.0 dogfood (20260523175643)
 
 What changed:
-• GigaAM CoreML voice runtime stays bundled and local-first.
-• Voice tone context is available as a transient prompt signal when confidence is high.
-• Release diagnostics now report bundle size, timings, and the largest packaged files.
+• Added the first Mattermost messenger integration surface inside Orch: channels, posts, attachments, reactions, threads, unread state, custom folders, notifications, and local caching.
+• Added a real Work home for tasks/workstreams, with task overview state, project-aware grouping, orphan tasks, clearer status, and agent-operable control-plane state.
+• Reworked task navigation so opening a task uses a dedicated detail screen with back navigation instead of an unclear side panel.
+• Removed noisy attention/task clutter from Today; attention is now reserved for states where the user has a concrete action.
+• Tightened assistant chat policy: non-LLM/system/runtime fallback text must not appear as a normal assistant answer; runtime failures surface as explicit safe errors.
+• Improved runtime ownership, readiness, diagnostics, and recovery so dev builds do not silently talk to the wrong bundled runtime.
+• Improved launch responsiveness and release packaging verification, including Sparkle rpath checks and voice bundle semantic verification.
 
 Notes:
-• Voice tone labels are not shown to users and are not stored as memory.
-• Sparkle uses small delta updates when available, with the full signed DMG as fallback.
+• This dogfood build is signed, notarized, Sparkle-signed, and published with a full DMG fallback.
+• Sparkle delta update is available from build 20260522181020.
+• GigaAM CoreML voice runtime remains bundled and local-first; voice/tone internals are not shown as user memory.
