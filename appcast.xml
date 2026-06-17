@@ -6,18 +6,18 @@
     <description>Dogfood updates for Orch native macOS app.</description>
     <language>en</language>
     <item>
-      <title>Orch 0.2.2 (20260615130434) dogfood</title>
-      <pubDate>Mon, 15 Jun 2026 13:15:49 +0000</pubDate>
-      <sparkle:version>20260615130434</sparkle:version>
-      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <title>Orch 0.2.3 (20260617074352) dogfood</title>
+      <pubDate>Wed, 17 Jun 2026 07:55:41 +0000</pubDate>
+      <sparkle:version>20260617074352</sparkle:version>
+      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/nightshock/orch-dogfood-updates/releases/download/dogfood-20260615130434/Orch-0.2.2-20260615130434-dogfood.dmg" length="230071831" type="application/octet-stream" sparkle:edSignature="MHnPUgVdUrN/ZAQpiCAjaeNnW/ketp8veFrhOFRndB4eUQT+w/wLhzOvOgqK8o/6itq6Y45rzLhyX/GiVsLcDQ==" sparkle:installerArguments="--channel=dogfood" />
+      <enclosure url="https://github.com/nightshock/orch-dogfood-updates/releases/download/dogfood-20260617074352/Orch-0.2.3-20260617074352-dogfood.dmg" length="230265026" type="application/octet-stream" sparkle:edSignature="pRKcMv0oLG8FEYj3jGf3jWhsKf0Jf+0giwiGMNzuMIygPNVL9pZEK8Tag0b4qT0zlH3is+nfqTPsWwZA01f9Bw==" sparkle:installerArguments="--channel=dogfood" />
       <sparkle:deltas xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-                <enclosure url="https://github.com/nightshock/orch-dogfood-updates/releases/download/dogfood-20260615130434/Orch20260615130434-20260614165934.delta" sparkle:deltaFrom="20260614165934" length="8492673" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p//T6buUY/BxGVs1M7oEv22PpPQTpLlTVRTFuykwoe61LD1+h9fGaF5Wyl6uIb7t1kBMMXObH/UjQ+xzvK55Ag==" />
+                <enclosure url="https://github.com/nightshock/orch-dogfood-updates/releases/download/dogfood-20260617074352/Orch20260617074352-20260615130434.delta" sparkle:deltaFrom="20260615130434" length="5108693" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1iWg5qPMh+rfwKSaeeDtyCwE5hFO7Kd1+D0moGsXzTlE3xHp3cqEJ/byN+ZJrqxdjslmO/FNmIqdtZWES8I8Cg==" />
             </sparkle:deltas>
         
-      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/nightshock/orch-dogfood-updates/main/release-notes-20260615130434.html</sparkle:releaseNotesLink>
-      <dc:identifier>c096e593d52b82cce717b929fe70a8a3c99af38adea2c518c4459a93249a0813</dc:identifier>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/nightshock/orch-dogfood-updates/main/release-notes-20260617074352.html</sparkle:releaseNotesLink>
+      <dc:identifier>3a82061ca07b039e9750c1599cc229137a4c96d3df4102e3fff282037bae521f</dc:identifier>
     </item>
   </channel>
 </rss>
